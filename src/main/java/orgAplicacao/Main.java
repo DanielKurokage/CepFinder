@@ -13,7 +13,7 @@ public static void main(String[] args){
 
     try{
         //Cep
-       EnderecoDto enderecoDto = apiServico.getEndereco("72503607");
+       EnderecoDto enderecoDto = apiServico.getEndereco("72410239");
        System.out.println(enderecoDto.getLogradouro());
     }
     
