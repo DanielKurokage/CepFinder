@@ -22,7 +22,7 @@ public class ApiServico {
 
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
-             // Verifique a resposta da API
+             // teste da resposta da api 
              System.out.println("Resposta da API: " + response.body());
 
             ObjectMapper mapper = new ObjectMapper();
