@@ -10,10 +10,10 @@ public class Main {
 public static void main(String[] args){
 
     ApiServico apiServico = new ApiServico();
-
+//Coloque o Cp nessa região 
     try{
         //Cep
-       EnderecoDto enderecoDto = apiServico.getEndereco("72410239");
+       EnderecoDto enderecoDto = apiServico.getEndereco("72503607");
        System.out.println(enderecoDto.getLogradouro());
     }
     
