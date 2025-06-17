@@ -10,13 +10,15 @@ public class Main {
 public static void main(String[] args){
 
     ApiServico apiServico = new ApiServico();
-//Coloque o Cp nessa região 
+
+    //=============================================================================CEP============================================================================================
+
     try{
         //Cep
-       EnderecoDto enderecoDto = apiServico.getEndereco("72503607");
+       EnderecoDto enderecoDto = apiServico.getEndereco("72503607"); //COLOQUE o seu Cep Aqui | Put your Cep Here
        System.out.println(enderecoDto.getLogradouro());
     }
-    
+     //=============================================================================CEP============================================================================================
     catch(IOException e){
         throw new RuntimeException(e);
     }catch(InterruptedException e){
