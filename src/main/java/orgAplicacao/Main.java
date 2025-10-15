@@ -15,7 +15,7 @@ public static void main(String[] args){
 
     try{
         //Cep
-       EnderecoDto enderecoDto = apiServico.getEndereco("72503607"); //COLOQUE o seu Cep Aqui | Put your Cep Here
+       EnderecoDto enderecoDto = apiServico.getEndereco("70160-900"); //COLOQUE o seu Cep Aqui | Put your Cep Here
        System.out.println(enderecoDto.getLogradouro());
     }
      //=============================================================================CEP============================================================================================
